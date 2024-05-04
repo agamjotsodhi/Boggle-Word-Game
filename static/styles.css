@@ -1,0 +1,47 @@
+body {
+    background: rgb(4, 26, 47);
+}
+.board {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border: solid 15px rgb(188, 55, 40);
+    background: rgba(34, 111, 235, 0.606) ;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 200%;
+  }
+  
+  .board td {
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.726);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 3em;
+    height: 3em;
+  }
+
+  form {
+    position: relative; 
+    margin: 0 auto; 
+    top: 20px; 
+  }
+  
+  button {
+    padding: 5px;
+    background: rgb(253, 43, 20);
+  }
+
+
+  .msg {
+    padding: 1em;
+  }
+  
+  .msg.ok {
+    color: white;
+    background-color: green;
+  }
+  
+  .msg.err {
+    color: white;
+    background-color: tomato;
+  }
